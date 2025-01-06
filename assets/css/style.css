@@ -78,49 +78,61 @@ form {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
-.form_heading{
+.form_heading {
     text-align: center;
     padding-bottom: 15px;
     text-transform: capitalize;
 }
-label{
+
+label {
     display: block;
     width: 100%;
     margin-top: 10px;
 }
-form input, form select{
+
+form input,
+form select {
     border: none;
     outline: none;
-    border: 2px solid  #8549f9;
+    border: 2px solid #8549f9;
     padding: 12px 10px;
     border-radius: 8px;
     width: 100%;
     margin-top: 6px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-form input::placeholder{
+
+form input::placeholder {
     text-transform: capitalize;
     font-size: 14px;
     font-weight: 600;
     color: #cecece;
 }
-form input:hover{
-    border: 2px solid  #ffd580;
+
+form input:hover {
+    border: 2px solid #ffd580;
 }
-form input:focus{
-    border: 2px solid  #ffd580;
+
+form input:focus {
+    border: 2px solid #ffd580;
 }
-#first, #last {
+
+#first,
+#last {
     width: 49%;
 }
-.p_f, .p_l{
+
+.p_f,
+.p_l {
     width: 49%;
 }
-#last, .p_l {
+
+#last,
+.p_l {
     float: right;
 }
 
-form button{
+form button {
     display: block;
     width: 100%;
     margin-top: 15px;
@@ -130,17 +142,19 @@ form button{
     outline: none;
     border-radius: 8px;
     font-size: 18px;
-    font-weight:500;
+    font-weight: 500;
     text-transform: uppercase;
 }
+
 /* main section css part END */
 /* footer section css part start  */
 
-            footer{
-                padding: 30px 0px;
-                text-align: center;
-                background-color: #000;
-                color: #fff;
-                padding-top: 30px;
-            }
+footer {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding-top: 30px;
+}
+
 /* footer section css part end */
