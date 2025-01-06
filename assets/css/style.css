@@ -65,6 +65,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0px;
 
 }
 
@@ -133,3 +134,13 @@ form button{
     text-transform: uppercase;
 }
 /* main section css part END */
+/* footer section css part start  */
+
+            footer{
+                padding: 30px 0px;
+                text-align: center;
+                background-color: #000;
+                color: #fff;
+                padding-top: 30px;
+            }
+/* footer section css part end */
